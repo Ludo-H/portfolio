@@ -1,0 +1,64 @@
+.hello{
+    text-transform: uppercase;
+    @include flexCenter;
+    margin: 30px auto;
+    color: $color-1;
+    letter-spacing: 1px;
+    font-size: 30px;
+    width: 110px;
+}
+
+.h {
+    transform: translate(-23px, 20px) rotate(-30deg);
+}
+
+.e {
+    transform: translate(-23px, 10px) rotate(-20deg);
+}
+
+.l1 {
+    transform: translate(-20px, 2px) rotate(-16deg);
+}
+
+.l2 {
+    transform: translate(-16px, -4px) rotate(-12deg);
+}
+
+.o1 {
+    transform: translate(-13px, -8px) rotate(-10deg);
+}
+
+.w {
+    transform: translate(5px, -12px) rotate(1deg);
+}
+
+.o2 {
+    transform: translate(5px, -10px) rotate(10deg);
+}
+
+.r {
+    transform: translate(5px, -4px) rotate(15deg);
+}
+
+.l3 {
+    transform: translate(8px, 4px) rotate(20deg);
+}
+
+.d {
+    transform: translate(10px, 13px) rotate(25deg);
+}
+
+.exclam {
+    transform: translate(22px, 25px) rotate(30deg);
+}
+
+
+span {
+    display: inline-block;
+}
+
+@media screen and (min-width: 500px) {
+    .hello{
+        font-size: 35px;
+    }
+}

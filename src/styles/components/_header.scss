@@ -1,0 +1,23 @@
+.header{
+    background-color: $black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h2{
+        color: $white;
+        letter-spacing: 1px;
+    }
+
+    .logos{
+        @include flexCenter;
+    }
+
+    a{
+        color: $white;
+        text-align: center;
+        margin-right: 15px;
+        font-size: 20px;
+    }
+}

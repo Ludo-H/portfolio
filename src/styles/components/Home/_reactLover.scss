@@ -1,0 +1,26 @@
+.reactLover{
+    @include flexCenterColumn;
+    
+    p{
+        text-align: center;
+    }
+
+    strong{
+        color: $color-1;
+        font-size: 20px;
+    }
+
+    img{
+        max-width: 200px;
+        animation: rotateReact 10s linear infinite;
+    }
+}
+
+@keyframes rotateReact {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+}

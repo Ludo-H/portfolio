@@ -1,0 +1,29 @@
+.waveTop{
+    background-image: 
+    url("../../../wavesTopReact.svg");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.skills-content{
+    background-color: $color-3;
+    height: 200px;
+    @include flexCenter;
+
+    &__modal{
+        background-color: antiquewhite;
+        width: 70%;
+        border-radius: 20px;
+    }
+}
+
+.waveBot{
+    background-image: url("../../../wavesBottomReact.svg");
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
