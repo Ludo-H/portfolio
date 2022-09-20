@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Photo from './components/Home/Photo';
 import ReactLover from './components/Home/ReactLover';
+import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Photo/>
       <ReactLover/>
       <Skills/>
+      <Projects/>
     </div>
   );
 };

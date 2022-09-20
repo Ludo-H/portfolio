@@ -1,5 +1,5 @@
-import React from 'react';
-import logoReact from '../../logo.svg';
+import React, { useEffect, useRef } from 'react';
+import logoReact from "../../logos/react.png";
 import logoRedux from "../../logos/redux.png";
 import logoJavascript from '../../logos/js.png';
 import logoCss from "../../logos/css.png";
@@ -11,13 +11,27 @@ import logoGithub from "../../logos/github.png";
 import logoMongo from "../../logos/mongo.png";
 import logoMysql from "../../logos/mysql.png";
 import logoNode from "../../logos/node.png";
+import scrollReveal from 'scrollreveal';
 
 const Skills = () => {
+        
+        const modalRef = useRef(null);
+
+        useEffect(() => {
+          if (modalRef.current)
+            scrollReveal().reveal(modalRef.current, {
+              reset: true,
+              delay: 100,
+              origin: 'left',
+              distance: '50px',
+            });
+        }, [])
+
     return (
         <div>
             <div className='waveTop'></div>
             <div className='skills-content'>
-                <div className='skills-content__modal'>
+                <div ref={modalRef} className='skills-content__modal'>
                     <h2>Skills</h2>
                     <div className='skills-content__modal__logos'>
                         <img src={logoReact} alt="React" />

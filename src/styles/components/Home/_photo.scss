@@ -1,5 +1,5 @@
 .photo{
-    animation: appear 0.5s ease-in-out forwards, floating 3s 0.5s  ease-in-out infinite;
+    animation: appearPhoto 0.5s ease-in-out forwards, floating 3s 0.5s  ease-in-out infinite;
     opacity: 0;
     @include flexCenter;
     margin: 20px auto;
@@ -11,7 +11,7 @@
     box-shadow: 0px 0px 10px 10px $shadow;
 }
 
-@keyframes appear {
+@keyframes appearPhoto {
     0%{
         opacity: 1;
         transform: rotate(180deg) scale(0);
