@@ -19,8 +19,16 @@ const Contact = () => {
     return (
         <div>
             <div className='wave-contact'>
-            <form ref={modalRef} className='form-contact'>
-                <p>Contactez-moi !</p>
+            <form 
+            ref={modalRef} 
+            className='form-contact' 
+            name='contact' 
+            method='post'
+            data-netlify='true'
+            onSubmit='submit'
+            >
+                <label>Contactez-moi !</label>
+                <input type="hidden" name="form-name" value='contact' />
                 <input type="text" name="firstname" id="firstname" placeholder='Prénom' required/>
                 <input type="text" name="lastname" id="lastname" placeholder='Nom' required/>
                 <input type="email" name="email" id="email" placeholder='Email' required/>
@@ -28,9 +36,7 @@ const Contact = () => {
                 <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' required></textarea>
                 <button>Envoyer</button>
             </form>
-
             </div>
-            
         </div>
     );
 };
