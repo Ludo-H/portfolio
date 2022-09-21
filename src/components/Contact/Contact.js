@@ -31,7 +31,7 @@ const Contact = () => {
                     <input type="text" name="firstname" id="firstname" placeholder='Prénom' required />
                     <input type="text" name="lastname" id="lastname" placeholder='Nom' required />
                     <input type="email" name="email" id="email" placeholder='Email' required />
-                    <input type="tel" name="tel" id="tel" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" placeholder='Tel.' required />
+                    <input type="tel" name="tel" id="tel" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" placeholder='Tel.' required />
                     <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' required></textarea>
                     <button>Envoyer</button>
                 </form>
