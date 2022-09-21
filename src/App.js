@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -9,8 +9,9 @@ import Skills from './components/Skills/Skills';
 
 const App = () => {
   return (
-    <div>
+    <Fragment>
       <Header/>
+      <section>
       <div className='hello'>
         <span className='h'>H</span>
         <span className='e'>e</span>
@@ -26,11 +27,12 @@ const App = () => {
       </div>
       <Photo/>
       <ReactLover/>
+      </section>
       <Skills/>
       <Projects/>
       <Contact/>
       <Footer/>
-    </div>
+    </Fragment>
   );
 };
 

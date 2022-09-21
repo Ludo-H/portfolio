@@ -28,7 +28,7 @@ const Skills = () => {
         }, [])
 
     return (
-        <div>
+        <section>
             <div className='waveTop'></div>
             <div className='skills-content'>
                 <div ref={modalRef} className='skills-content__modal'>
@@ -50,7 +50,7 @@ const Skills = () => {
                 </div>
             </div>
             <div className='waveBot'></div>
-        </div>
+        </section>
     );
 };
 

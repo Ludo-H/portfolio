@@ -17,7 +17,7 @@ const Contact = () => {
     }, [])
 
     return (
-        <div>
+        <section>
             <div className='wave-contact'>
                 <form
                     ref={modalRef}
@@ -25,7 +25,6 @@ const Contact = () => {
                     name='contact'
                     method='POST'
                     data-netlify='true'
-                    onSubmit='submit'
                 >
                     <label>Contactez-moi !</label>
                     <input type="hidden" name="form-name" value='contact' />
@@ -37,7 +36,7 @@ const Contact = () => {
                     <button>Envoyer</button>
                 </form>
             </div>
-        </div>
+        </section>
     );
 };
 

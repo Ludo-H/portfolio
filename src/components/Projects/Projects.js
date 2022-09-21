@@ -18,7 +18,7 @@ const Projects = () => {
         }, [])
 
     return (
-        <div ref={modalRef} className='projects-content__modal'>
+        <section ref={modalRef} className='projects-content__modal'>
             <h2>Projects</h2>
             <div className='projects-content__modal__screens'>
                 {projects.map((project) => {
@@ -27,7 +27,7 @@ const Projects = () => {
                     )
                 })}
             </div>
-        </div>
+        </section>
     );
 };
 
