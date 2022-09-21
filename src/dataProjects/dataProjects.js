@@ -1,74 +1,73 @@
-
-export const Projects = [
+export const projects = [
     {
         name : "E-commerce - Phones",
-        screen : ,
+        screen : '../screens/e-commerce_phones.png',
         technos : ["React", 'Redux', 'Firebase', 'SASS', "Stripe"],
         urlGitHub : 'https://github.com/Ludo-H/phones'
     },
     {
         name : "Training Typescript",
-        screen : ,
+        screen : '../screens/test_typescript.png',
         technos : ["TypeScript", "React"],
         urlGitHub : 'https://github.com/Ludo-H/TypeScript-Train'
     },
     {
         name : "Social Network - Groupomania",
-        screen : ,
+        screen : '../screens/groupomania.png',
         technos : ["React", "Redux", 'SASS', 'NodeJS', 'MySQL'],
         urlGitHub : 'https://github.com/Ludo-H/Groupomania'
     },
     {
         name : "Recipes React",
-        screen : ,
-        technos : ["React"],
+        screen : '../screens/cook_react.png',
+        technos : ["React", "API"],
         urlGitHub : 'https://github.com/Ludo-H/react_cook'
     },
     {
         name : "Post and Comment",
-        screen : ,
+        screen : '../screens/react_redux_firebase.png',
         technos : ["React", 'Redux', 'Firebase'],
         urlGitHub : 'https://github.com/Ludo-H/react-firebase-redux'
     },
     {
         name : "Expenses Tracker",
-        screen : ,
+        screen : '../screens/expenses_tracker.png',
         technos : ["React"],
         urlGitHub : 'https://github.com/Ludo-H/Expenses-track---props-training-'
     },
     {
         name : "API - Piquante",
-        screen : ,
+        screen : '../screens/piquante.png',
         technos : ["NodeJS", "MongoDB"],
         urlGitHub : 'https://github.com/Ludo-H/Piquante'
     },
     {
         name : "E-commerce - Kanap",
-        screen : ,
-        technos : ["JavaScript"],
+        screen : '../screens/kanap.png',
+        technos : ["JavaScript", "API"],
         urlGitHub : 'https://github.com/Ludo-H/Kanap'
     },
     {
         name : "World Countries",
-        screen : ,
-        technos : ["JavaScript"],
+        screen : '../screens/world_countries.png',
+        technos : ["JavaScript", "API"],
         urlGitHub : 'https://github.com/Ludo-H/World-countries'
     },
     {
         name : "SEO - Chouette Agence",
-        screen : ,
+        screen : '../screens/SEO.png',
         technos : ["HTML"],
         urlGitHub : 'https://github.com/Ludo-H/SEO'
     },
     {
         name : "Integration - Ohmyfood",
-        screen : ,
+        screen : '../screens/ohmyfood.png',
         technos : ["HTML", 'SASS'],
         urlGitHub : 'https://github.com/Ludo-H/Ohmyfood'
     },
     {
         name : "Integration - Booki",
-        screen : ,
+        screen : '../screens/booki.png',
         technos : ["HTML", "CSS"],
         urlGitHub : 'https://github.com/Ludo-H/Booki'
     },

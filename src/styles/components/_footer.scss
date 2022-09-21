@@ -1,0 +1,12 @@
+.footer{
+    background-color: $black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h2{
+        color: $white;
+        letter-spacing: 1px;
+    }
+}

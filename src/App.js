@@ -1,4 +1,6 @@
 import React from 'react';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Photo from './components/Home/Photo';
 import ReactLover from './components/Home/ReactLover';
@@ -26,6 +28,8 @@ const App = () => {
       <ReactLover/>
       <Skills/>
       <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 };
