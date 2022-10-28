@@ -1,5 +1,11 @@
 export const projects = [
     {
+        name : "Movies",
+        screen : '../screens/movies.png',
+        technos : ["React", 'Typescript', 'Context API', 'Firebase', 'SASS', "Axios"],
+        urlGitHub : 'https://github.com/Ludo-H/Movies-TMDB'
+    },
+    {
         name : "E-commerce - Phones",
         screen : '../screens/e-commerce_phones.png',
         technos : ["React", 'Redux', 'Firebase', 'SASS', "Stripe"],
